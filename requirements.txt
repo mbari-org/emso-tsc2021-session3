@@ -1,0 +1,9 @@
+nbconvert
+jupyter
+numpy
+soundfile
+librosa
+matplotlib
+seaborn
+opencv==3.4.2
+tensorflow==2.4.1

@@ -1,0 +1,1 @@
+*.ipynb filter=jupyter_strip_outputs
