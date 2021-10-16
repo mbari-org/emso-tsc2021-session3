@@ -14,7 +14,7 @@ Trainers: Danelle E. Cline & John Ryan – Monterey Bay Aquarium Research Instit
 If anyone knows where we might find this, please contact us directly at the email above. Thank you! ** 
 
 The MBARI research activity with Blue whales is proposed as the focal content for the EMSO TSC training, because:
-* It uses a combination of Machine Learning and signal processing methods, depending on the type of call.
+* It uses a combination of Machine Learning (ML) and signal processing methods, depending on the type of call.
 * Blue Whales are a fascinating endangered species for which science can inform protection.
 
 Objectives
@@ -51,4 +51,16 @@ Colab is free with limitations in compute and memory.  To use these notebooks in
 
 ### Local
 
-TODO: add conda install
+Install [Anaconda](http://anaconda.org)
+
+Setup environment
+
+```shell
+conda env create --file conda.yaml
+conda activate emso-tsc2021-session3
+```
+
+Launch notebooks
+```shell
+jupyter notebook
+```
