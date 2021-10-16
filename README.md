@@ -23,8 +23,32 @@ Objectives
 * Demonstrate use of Machine Learning to successfully detect and classify other call types that occur less frequently and thus do not have the above “chorusing” difficulty.
 MBARI are proposing to use an existing AWS (Amazon Web Services) Open Data project with both data and tutorials already up and tested in the cloud, for both Machine learning and signal processing methods applied to blue whales. To make the most effective use of a 3-hour period, MBARI suggest that we have participants simply use a web-browser and work in provided Google Colab notebooks – this is the simplest approach to quickly get up and running as it is straightforward to convert any examples in AWS to Google for a tutorial.
 
-### Notebook access
+## Notebook access
 
 ### EMSO Portal
 
+Setup your account per the instructions mailed to you, then clone this repository in the EMSO jupyter environment with:
+
+```shell
+git clone https://github.com/mbari-org/emso-tsc2021-session3.git
+```
+
+## Colab
+
+**Colaboratory** is also known as Colab. It is a Google Research product that allows one to write code in a web browser.
+Colab is free with limitations in compute and memory.  To use these notebooks in Colab:
+
+1. Setup a gmail account if you don't already have one.
+2. Launch the notebook by clicking on one of the links below:
+
+| Notebook | Description  |
+| -----------------------------------------  | -----------------------------------------
+| [blueB/bluewhale_B_call_index.ipynb](https://colab.research.google.com/github/mbari-org/emso-tsc2021-session3/blob/master/blueB/bluewhale_B_call_index.ipynb)  | This tutorial describes use of the *Pacific Ocean Sound Recordings* archive to examine temporal patterns in the occurrence of blue whale song.  Signal processing methods focus on the blue whale B call. |
+| [blueA/lesson1_data/call_exploration.ipynb](https://colab.research.google.com/github/mbari-org/emso-tsc2021-session3/blob/master/blueA/lesson1_data/call_exploration.ipynb) | A basic exploration of the blue A call. |
+| [blueA/lesson2_spectrogram_generation/pcen_overview.ipynb](https://colab.research.google.com/github/mbari-org/emso-tsc2021-session3/blob/master/blueA/lesson2_spectrogram_generation/pcen_overview.ipynb) | An overview of per-channel energy normalization (PCEN) |
+| [blueA/lesson2_spectrogram_generation/pcen_versus_logmel.ipynb](https://colab.research.google.com/github/mbari-org/emso-tsc2021-session3/blob/master/blueA/lesson2_spectrogram_generation/pcen_versus_logmel.ipynb) | Side-by-side comparison of PCEN versus log mel transformation |
+| [blueA/lesson3_detect_classify/bled_classify.ipynb](https://colab.research.google.com/github/mbari-org/emso-tsc2021-session3/blob/master/blueA/lesson3_detect_classify/bled_classify.ipynb) | Classify blue whale A calls from Band-limited-energy-detection outputs using a Convolutional Neural Network (CNN) model trained on *Pacific Ocean Sound Recordings*. |
+
 ### Local
+
+TODO: add conda install

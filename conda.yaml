@@ -1,0 +1,13 @@
+name: emso-tsc2021-session3
+channels:
+  - conda-forge
+dependencies:
+  - python==3.6
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - opencv==3.2
+  - jupyter
+  - notebook
+  - pandas
