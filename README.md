@@ -57,7 +57,9 @@ Install [Anaconda](http://anaconda.org)
 Setup environment
 
 ```shell
-conda env create --file conda.yaml
+git clone https://github.com/mbari-org/emso-tsc2021-session3.git
+cd emso-tsc2021-session3
+conda env create
 conda activate emso-tsc2021-session3
 ```
 
