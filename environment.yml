@@ -1,0 +1,12 @@
+name: emso-tsc2021-session3
+channels:
+  - conda-forge
+  - menpo
+dependencies:
+  - python==3.8
+  - jupyter
+  - ipykernel
+  - boto3 
+  - numpy
+  - soundfile
+  - librosa
